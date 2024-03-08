@@ -62,9 +62,9 @@ button {
   border: 2px solid var(--color-blanco);
   border-radius: 10px;
   padding: 1rem 2rem;
-  margin-left: 1rem;
   color: var(--color-blanco);
   font-weight: 500;
+  cursor: pointer;
 }
 
 .header {
@@ -262,7 +262,7 @@ button {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 65vh;
   margin-top: 7rem;
 }
 
@@ -278,7 +278,7 @@ button {
   color: var(--color-blanco);
   font-weight: 600;
   font-size: 4rem;
-  margin: 0 16rem 2rem 16rem; 
+  margin: 0 16rem 2rem 16rem;
 }
 
 .btn_bonfire {
@@ -286,3 +286,36 @@ button {
   text-transform: uppercase;
   font-size: 1.4rem;
 }
+
+.booking_title-main {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 1rem 45rem;
+}
+
+.booking_content {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  gap: 2rem;
+}
+
+.booking_img {
+  border-radius: 10px;
+}
+.article_title {
+  color: var(--color-verde);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.btn_article{
+  margin: 0;
+  background-color: var(--color-verde);
+  text-transform: uppercase;
+  padding: 1rem 5rem;
+  margin-bottom: 3.5rem;
+}
+
