@@ -186,7 +186,7 @@ button {
 .about_images {
   padding-top: 7rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit , minmax(5rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
   gap: 3rem;
 }
 
@@ -194,7 +194,8 @@ button {
   border-radius: 10px;
 }
 
-.image_title , .image_p {
+.image_title,
+.image_p {
   text-align: center;
 }
 .image_title {
@@ -208,8 +209,51 @@ button {
   margin: 0;
 }
 
+.active {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+}
 
+.active_title {
+  text-align: left;
+}
+.active_title_main {
+  font-size: 4rem;
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+.active_img {
+  padding-top: 10rem;
+  width: 80%;
+  align-content: center;
+  margin: 0 auto;
+}
 
+.active_two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
 
+.active_box {
+  text-align: left;
+}
 
+.active_icon_margin {
+  margin-top: 8rem;
+}
+
+.icon_title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1.5rem 0;
+}
+.icon_p {
+  margin: 0;
+  font-size: 1.3rem;
+}
 
