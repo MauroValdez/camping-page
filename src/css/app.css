@@ -186,7 +186,7 @@ button {
 .about_images {
   padding-top: 7rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 3rem;
 }
 
@@ -257,3 +257,32 @@ button {
   font-size: 1.3rem;
 }
 
+.bonfire_bg {
+  background-image: url(../img/bonfire.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  margin-top: 7rem;
+}
+
+.bonfire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bonfire_title {
+  color: var(--color-blanco);
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 0 16rem 2rem 16rem; 
+}
+
+.btn_bonfire {
+  padding: 1.5rem 4.5rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
